@@ -66,7 +66,7 @@ header div ul li {
 header div ul li img {
     width: 2vw;
 }
-/* --- main content top part --- */
+/* --- main top --- */
 article div{
     display: inline-block;
     text-align: center;
@@ -79,7 +79,7 @@ article div img {
 article div img:hover {
     box-shadow: 0 0px 15px 0 #ccc;
 }
-/* --- main content bottom part --- */
+/* --- main bottom --- */
 section figure{
     margin: 15vh 10vh;
 }
@@ -102,6 +102,7 @@ section figure:nth-of-type(even) figcaption{
 section figure img{
     width: 40vw;
 }
+/* --- footer --- */
 footer{
     text-align: center;
 }
