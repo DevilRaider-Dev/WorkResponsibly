@@ -81,20 +81,14 @@ article div img:hover {
 }
 /* --- main bottom --- */
 section figure{
-    margin: 15vh 10vh;
+    padding: 5vh 10vh;
 }
-section figure:nth-of-type(odd){
-    text-align: left;
-}
-section figure:nth-of-type(even){
-    text-align: right;
-}
-section figure:nth-of-type(odd) figcaption{
+section figure:nth-of-type(odd) {
     width: 40vw;
     margin: 0 auto 0 0;
     text-align: center;
 }
-section figure:nth-of-type(even) figcaption{
+section figure:nth-of-type(even) {
     width: 40vw;
     margin: 0 0 0 auto;
     text-align: center;
