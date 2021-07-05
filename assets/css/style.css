@@ -2,18 +2,7 @@
     font-family: Roboto;
     src: url(../fonts/Roboto-Regular.ttf);
 }
-
-/*  
-    Background: #eee
-    Border  #ccc 
-    Text    #659d89
-    Text    #333
-    Text    #666
-    Text    #000
-*/
-
 /* !!! default !!! */
-
 body {
     font-family: Roboto;
     background-color: #eee;
@@ -100,13 +89,18 @@ section figure:nth-of-type(odd){
 section figure:nth-of-type(even){
     text-align: right;
 }
+section figure:nth-of-type(odd) figcaption{
+    width: 40vw;
+    margin: 0 auto 0 0;
+    text-align: center;
+}
+section figure:nth-of-type(even) figcaption{
+    width: 40vw;
+    margin: 0 0 0 auto;
+    text-align: center;
+}
 section figure img{
     width: 40vw;
-}
-section figcaption{
-    width: 50vw;
-    margin: auto;
-    text-align: center;
 }
 footer{
     text-align: center;
