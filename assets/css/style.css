@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/*  
+    Background: #eee
+    Border  #ccc 
+    Text    #659d89
+    Text    #333
+    Text    #666
+    Text    #000
+*/
+
+/* !!! default !!! */
+
+body {
+    font-family: Roboto;
+    background-color: #eee;
+}
+
+header, article, section {
+    padding: 5% 10%;
+    border-bottom: 1%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* --- header --- */
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 1vw;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #659d89;
+}
+
+header article {
+    margin: 15% 0;
+    padding: 0;
+    border: none;
+    width: 60%;
+}
+
+header article h1 {
+    font-size: 300%;
+    color: #659d89;
+}
+
+header article h2 {
+    font-size: 200%;
+}
+
+header div ul li {
+    list-style: none;
+    text-align: right;
+    padding: .6% 0;
+}
+
+header div ul li img {
+    width: 2vw;
+}
+/* --- main content top part --- */
+article div{
+    display: inline-block;
+    text-align: center;
+    padding: 10vh 0;
+}
+article div img {
+    margin: 2vh 2vw;
+    width: 20vw;
+}
+article div img:hover {
+    box-shadow: 0 0px 15px 0 #ccc;
+}
+/* --- main content bottom part --- */
+section figure{
+    margin: 15vh 10vh;
+}
+section figure:nth-of-type(odd){
+    text-align: left;
+}
+section figure:nth-of-type(even){
+    text-align: right;
+}
+section figure img{
+    width: 40vw;
+}
+section figcaption{
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+footer div{
+    padding-top: 15vh;
+}
+footer div p{
+    margin-top: 15vh;
+    font-size: 65%;
+}
